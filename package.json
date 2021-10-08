@@ -1,0 +1,33 @@
+{
+  "name": "io.wolf3d.gltfimporter",
+  "version": "0.1.0",
+  "displayName": "RPM GLTF Importer",
+  "description": "Ready Player Me GLTF Importer Plugin.",
+  "unity": "2019.4",
+  "unityRelease": "29f1",
+  "documentationUrl": "https://docs.readyplayer.me",
+  "changelogUrl": "https://docs.readyplayer.me",
+  "licensesUrl": "https://docs.readyplayer.me",
+  "keywords": [
+    "GLTF",
+    "GLB",
+    "Import",
+    "3D Format"
+  ],
+  "author": {
+    "name": "Ready Player Me",
+    "email": "info@wolf3d.io",
+    "url": "https://wolf3d.io"
+  },
+  "type": "tool",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "2.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "GLTF Loader Sample",
+      "description": "Loads Ready Player Me avatar.",
+      "path": "Samples"
+    }
+  ]
+}
